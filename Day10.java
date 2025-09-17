@@ -10,7 +10,8 @@ public class Day10 {
         System.out.println("Umur: " + umur + " tahun");
 
         // Jika mencoba mengubah nilainya → ERROR
-        // UMUR = 25;   //  Tidak boleh karena final
+        // umur = 25;   //  Tidak boleh karena final
     }
 }
+
 
