@@ -23,7 +23,6 @@ public class Day40 {
             hasil = angka1 * angka2;
         } else if (operator == '/') {
             hasil = angka1 / angka2;
-                return;
         } else {
             System.out.println("Operator tidak valid!");
             return;
@@ -31,3 +30,4 @@ public class Day40 {
         System.out.println("Hasil: " + hasil);
     }
 }
+
