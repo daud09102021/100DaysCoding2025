@@ -7,7 +7,7 @@ public class Day40 {
         System.out.print("Masukkan angka pertama: ");
         double angka1 = input.nextDouble();
 
-        System.out.print("Masukkan operator (+, -, *, /): ");
+        System.out.print("Masukkan operator (+, -, *, /,%): ");
         char operator = input.next().charAt(0);
       
         System.out.print("Masukkan angka kedua: ");
@@ -23,6 +23,8 @@ public class Day40 {
             hasil = angka1 * angka2;
         } else if (operator == '/') {
             hasil = angka1 / angka2;
+        } else if (operator == '%') {
+            hasil = angka1 % angka2;
         } else {
             System.out.println("Operator tidak valid!");
             return;
@@ -30,4 +32,5 @@ public class Day40 {
         System.out.println("Hasil: " + hasil);
     }
 }
+
 
