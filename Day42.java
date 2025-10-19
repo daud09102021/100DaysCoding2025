@@ -12,11 +12,12 @@ public class Day42 {
         System.out.print("Jam lembur: ");
         int jam = input.nextInt();
         
-        int lebur = 50000;
+        int lembur = 50000;
 
-        double lembur = jam * lebur;
-        double gajiBersih = lembur + gaji;
+        double gajilembur = jam * lembur;
+        double gajiBersih = gajilembur + gaji;
 
         System.out.println("\nGaji Bersih: " + gajiBersih);
     }
 }
+
