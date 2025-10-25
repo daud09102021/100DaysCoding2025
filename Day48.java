@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Day48 {
     public static void main(String[] args) {
-        // Latihan: Membuat Kalkulator Menggunakan Switch-case di java
+        // Latihan: Membuat Kalkulator Menggunakan Switch-case 
         Scanner input = new Scanner(System.in);
         double hasil;
         System.out.print("Masukkan angka pertama: ");
@@ -42,3 +42,4 @@ public class Day48 {
         input.close();
     }
 }
+
