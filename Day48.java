@@ -37,9 +37,9 @@ public class Day48 {
                 break;
             default:
                 System.out.println("Operator tidak dikenal!");
+                break;
         }
-
-        input.close();
     }
 }
+
 
