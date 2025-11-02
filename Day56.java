@@ -13,7 +13,7 @@ public class Day56 {
             System.out.print("Password : ");
             password = input.nextLine();
 
-            if (username.equals("Auliyah") && password.equals("111")) {
+            if (username.equals("Daud") && password.equals("D0224322")) {
                 System.out.println("Login Sebagai Pengguna");
                 login = true;
             } 
@@ -31,3 +31,4 @@ public class Day56 {
         
     }
 }
+
