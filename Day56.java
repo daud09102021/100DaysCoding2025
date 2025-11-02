@@ -26,9 +26,11 @@ public class Day56 {
                 percobaan++;
             }
 
-        } while (percobaan < 3 );
+        } while (percobaan < 3 && !login);
+        if (!login) {
             System.out.println("Login Gagal");
-        
+        }
     }
 }
+
 
