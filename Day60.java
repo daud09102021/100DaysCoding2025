@@ -1,5 +1,3 @@
-package pkg100dayscoding2025;
-
 import java.util.Scanner;
 
 public class day60 {
