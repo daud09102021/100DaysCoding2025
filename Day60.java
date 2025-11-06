@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class day60 {
     public static void main(String[] args) {
-        Scanner aa = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("Masukkan bilangan N: ");
-        int N = aa.nextInt();
+        int N = input.nextInt();
         System.out.print("Genap :\n");
         int Genap = 0;
         for (int i = 2; i <= N; i += 2) {
