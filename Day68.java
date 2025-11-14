@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Day68 {
     public static void main(String[] args) {
-        Scanner aa = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("Masukkan angka : ");
-        int N = aa.nextInt();
+        int N = input.nextInt();
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N ; j++) {
                 System.out.print("-");
@@ -12,4 +12,5 @@ public class Day68 {
             System.out.println();
         }
     }
+
 }
