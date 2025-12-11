@@ -1,4 +1,4 @@
-public class LatihanCetak {
+public class Day95 {
     void cetakNama(String nama) {
         System.out.println("Nama saya: " + nama);
     }
@@ -6,7 +6,7 @@ public class LatihanCetak {
         System.out.println("Umur saya: " + umur + " tahun");
     }
     public static void main(String[] args) {
-        LatihanCetak obj = new LatihanCetak();
+        Day95 obj = new Day95();
 
         obj.cetakNama("Daud");
         obj.cetakUmur(20);
